@@ -8,7 +8,7 @@ int main(){
 	
 	//ask for user input
 	cout <<"Enter a number from 1 -4: ";
-	cin userInput;
+	cin >>  userInput;
 
 	
 	if(userInput == 1){
@@ -23,6 +23,10 @@ int main(){
 	else if (userInput == 4){
 		cout << "Your element is AIR" << endl;
 	}
+	else{
+		cout <<"ERROR" << endl;
+}
+
 
 
 
