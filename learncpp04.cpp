@@ -5,7 +5,7 @@ int main(){
 	int i, j; //variables for rows and columns
 	int userInput;	//variable for user input
 
-	cout << "Making a Square!" << endl;
+	cout << "Make a Square!" << endl; 
 
 	cout << "Input number of rows: "; //prompt for user input
 	cin >> userInput;
